@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Images</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Upload Images</h1>
+        <form action="/updated" method="POST" enctype="multipart/form-data">
+            <!-- Image A -->
+            <div class="mb-3">
+                <label for="imageA" class="form-label">Image A</label>
+                <input type="file" name="imageA" class="form-control" required>
+                <input type="text" name="descriptionA1" placeholder="Description A1" class="form-control mt-2">
+                <input type="text" name="descriptionA2" placeholder="Description A2" class="form-control mt-2">
+                <input type="text" name="descriptionA3" placeholder="Description A3" class="form-control mt-2">
+            </div>
+
+            <!-- Image B -->
+            <div class="mb-3">
+                <label for="imageB" class="form-label">Image B</label>
+                <input type="file" name="imageB" class="form-control" required>
+                <input type="text" name="descriptionB1" placeholder="Description B1" class="form-control mt-2">
+                <input type="text" name="descriptionB2" placeholder="Description B2" class="form-control mt-2">
+                <input type="text" name="descriptionB3" placeholder="Description B3" class="form-control mt-2">
+            </div>
+
+            <!-- Image C -->
+            <div class="mb-3">
+                <label for="imageC" class="form-label">Image C</label>
+                <input type="file" name="imageC" class="form-control" required>
+                <input type="text" name="descriptionC1" placeholder="Description C1" class="form-control mt-2">
+                <input type="text" name="descriptionC2" placeholder="Description C2" class="form-control mt-2">
+                <input type="text" name="descriptionC3" placeholder="Description C3" class="form-control mt-2">
+            </div>
+
+            <!-- Image D -->
+            <div class="mb-3">
+                <label for="imageD" class="form-label">Image D</label>
+                <input type="file" name="imageD" class="form-control" required>
+                <input type="text" name="descriptionD1" placeholder="Description D1" class="form-control mt-2">
+                <input type="text" name="descriptionD2" placeholder="Description D2" class="form-control mt-2">
+                <input type="text" name="descriptionD3" placeholder="Description D3" class="form-control mt-2">
+            </div>
+
+            <!-- Image E -->
+            <div class="mb-3">
+                <label for="imageE" class="form-label">Image E</label>
+                <input type="file" name="imageE" class="form-control" required>
+                <input type="text" name="descriptionE1" placeholder="Description E1" class="form-control mt-2">
+                <input type="text" name="descriptionE2" placeholder="Description E2" class="form-control mt-2">
+                <input type="text" name="descriptionE3" placeholder="Description E3" class="form-control mt-2">
+            </div>
+            
+            <!-- Image F -->
+            <div class="mb-3">
+                <label for="imageF" class="form-label">Image F</label>
+                <input type="file" name="imageF" class="form-control" required>
+                <input type="text" name="descriptionF1" placeholder="Description F1" class="form-control mt-2">
+                <input type="text" name="descriptionF2" placeholder="Description F2" class="form-control mt-2">
+                <input type="text" name="descriptionF3" placeholder="Description F3" class="form-control mt-2">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
